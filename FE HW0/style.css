@@ -1,0 +1,34 @@
+h1{
+text-align: center;}
+
+.name{
+    background-color: blueviolet;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.about-me{
+    background-color: blue;
+    border-radius: 15px;
+    width: 350px;
+    height: 100px;
+    margin-left: 310px;
+    text-align: center;
+    padding: 2px;
+}
+
+.my-hobby{
+    background-color: yellow;
+    border-radius: 15px;
+    width: 350px;
+    height: 100px;
+    margin-left: 700px;
+    text-align: center;
+    padding: 2px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
