@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(10, 120px);
+        }
+
+        .box{
+            font-weight: bold;
+            font-size: 30pt;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 3px solid;
+        }
+
+        .logo {
+            background-color: lightyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-color: orange;
+            grid-column: 1 / span 3;
+        }
+
+        .menu {
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-color: blue;
+            grid-column: 4 / 13;
+        }
+
+        .header{
+            background-color: lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-color: green;
+            grid-area: 2 / 1 / 6 / 13
+        }
+
+        .content1{
+            background-color: rgb(227, 162, 227);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-color: rgb(204, 65, 204);
+            grid-area: 6 / 1 / 10 / 6
+        }
+
+        .content2{
+            background-color: rgb(248, 248, 207);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-color: rgb(211, 211, 83);
+            grid-area: 6 / 6 / 8 / 9;
+        }
+        .image{
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-color: rgb(215, 100, 119);
+            grid-area: 6 / 9 / 8 / 13
+
+        }
+
+        .extra{
+            background-color: #80DAFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-color: #0f5eac;
+            color: white;
+            grid-row-start: 8;
+            grid-row-end: 10;
+            grid-column: 6 / span 7;
+        }
+
+        .footer{
+            background-color: #C2FFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-color: #20b0b0;
+            grid-row-start: 10;
+            grid-column: 1 / span 12;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box logo">
+            LOGO
+        </div>
+        <div class="box menu">
+            MENU
+        </div>
+        <div class="box header">
+            HEADER
+        </div>
+        <div class="box content1">
+            CONTENT
+        </div>
+        <div class="box content2">
+            CONTENT
+        </div>
+        <div class="box image">
+            IMAGE
+        </div>
+        <div class="box extra">
+            EXTRA
+        </div>
+        <div class="box footer">
+            FOOTER
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
